@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"binderb5d39400": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
