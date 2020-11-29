@@ -1,3 +1,4 @@
+/* eslint-disable no-shadow */
 /* eslint-disable prefer-const */
 import axios from 'axios';
 
@@ -8,7 +9,7 @@ const state = () => ({
 });
 
 const getters = {
-
+  getMembers: state => state.members
 };
 
 const actions = {
